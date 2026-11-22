@@ -1,0 +1,1693 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lectern",
+          "modifier": [
+            {
+              "type": "minecraft:copy_components",
+              "source": "block_entity",
+              "include": [
+                "minecraft:custom_data"
+              ]
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.slate",
+                  "fallback": "Slate Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.slate",
+                  "fallback": "Slate Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"slate\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.slate",
+                  "fallback": "Slate Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"slate\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.slate",
+                  "fallback": "Slate Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"moss\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.moss",
+                  "fallback": "Mossy Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"moss\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.moss",
+                  "fallback": "Mossy Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"dune\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.dune",
+                  "fallback": "Dune Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"dune\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.dune",
+                  "fallback": "Dune Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"ember\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.ember",
+                  "fallback": "Ember Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"ember\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.ember",
+                  "fallback": "Ember Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"frost\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.frost",
+                  "fallback": "Frost Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"frost\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.frost",
+                  "fallback": "Frost Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"prismarine\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.prismarine",
+                  "fallback": "Tidal Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"prismarine\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.prismarine",
+                  "fallback": "Tidal Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"quartz\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.quartz",
+                  "fallback": "Quartz Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"quartz\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.quartz",
+                  "fallback": "Quartz Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"basalt\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.basalt",
+                  "fallback": "Basalt Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"basalt\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.basalt",
+                  "fallback": "Basalt Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"end\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.end",
+                  "fallback": "Ender Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"end\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.end",
+                  "fallback": "Ender Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"tuff\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.tuff",
+                  "fallback": "Tuff Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"tuff\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.tuff",
+                  "fallback": "Tuff Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"obsidian\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.obsidian",
+                  "fallback": "Obsidian Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"obsidian\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.obsidian",
+                  "fallback": "Obsidian Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"terracotta\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.terracotta",
+                  "fallback": "Terracotta Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"terracotta\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.terracotta",
+                  "fallback": "Terracotta Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"sunflower\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.sunflower",
+                  "fallback": "Sunflower Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"sunflower\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.sunflower",
+                  "fallback": "Sunflower Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"meadow\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.meadow",
+                  "fallback": "Alpine Meadow Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"meadow\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.meadow",
+                  "fallback": "Alpine Meadow Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"birch\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.birch",
+                  "fallback": "Birch Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"birch\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.birch",
+                  "fallback": "Birch Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"old_birch\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.old_birch",
+                  "fallback": "Ancient Birch Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"old_birch\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.old_birch",
+                  "fallback": "Ancient Birch Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"dark_oak\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.dark_oak",
+                  "fallback": "Dark Oak Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"dark_oak\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.dark_oak",
+                  "fallback": "Dark Oak Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"poplar\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.poplar",
+                  "fallback": "Autumn Poplar Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"poplar\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.poplar",
+                  "fallback": "Autumn Poplar Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"blossom\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.blossom",
+                  "fallback": "Wildflower Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"blossom\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.blossom",
+                  "fallback": "Wildflower Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"windwood\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.windwood",
+                  "fallback": "Windwood Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"windwood\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.windwood",
+                  "fallback": "Windwood Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"pale_oak\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.pale_oak",
+                  "fallback": "Pale Oak Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"pale_oak\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.pale_oak",
+                  "fallback": "Pale Oak Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"cherry\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.cherry",
+                  "fallback": "Cherry Blossom Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"cherry\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.cherry",
+                  "fallback": "Cherry Blossom Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"spruce\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.spruce",
+                  "fallback": "Spruce Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"spruce\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.spruce",
+                  "fallback": "Spruce Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"ancient_pine\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.ancient_pine",
+                  "fallback": "Ancient Pine Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"ancient_pine\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.ancient_pine",
+                  "fallback": "Ancient Pine Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"giant_spruce\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.giant_spruce",
+                  "fallback": "Giant Spruce Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"giant_spruce\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.giant_spruce",
+                  "fallback": "Giant Spruce Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"snow_spruce\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.snow_spruce",
+                  "fallback": "Frosted Spruce Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"snow_spruce\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.snow_spruce",
+                  "fallback": "Frosted Spruce Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"grove\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.grove",
+                  "fallback": "Snowy Grove Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"grove\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.grove",
+                  "fallback": "Snowy Grove Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"jungle\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.jungle",
+                  "fallback": "Jungle Shrine Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"jungle\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.jungle",
+                  "fallback": "Jungle Shrine Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"jungle_fringe\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.jungle_fringe",
+                  "fallback": "Jungle Fringe Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"jungle_fringe\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.jungle_fringe",
+                  "fallback": "Jungle Fringe Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"bamboo\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.bamboo",
+                  "fallback": "Bamboo Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"bamboo\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.bamboo",
+                  "fallback": "Bamboo Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"swamp\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.swamp",
+                  "fallback": "Marsh Lantern Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"swamp\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.swamp",
+                  "fallback": "Marsh Lantern Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"mangrove\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.mangrove",
+                  "fallback": "Mangrove Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"mangrove\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.mangrove",
+                  "fallback": "Mangrove Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"mycelium\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.mycelium",
+                  "fallback": "Mycelium Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"mycelium\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.mycelium",
+                  "fallback": "Mycelium Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"acacia\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.acacia",
+                  "fallback": "Acacia Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"acacia\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.acacia",
+                  "fallback": "Acacia Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"savanna_plateau\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.savanna_plateau",
+                  "fallback": "Savanna Plateau Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"savanna_plateau\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.savanna_plateau",
+                  "fallback": "Savanna Plateau Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"wind_acacia\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.wind_acacia",
+                  "fallback": "Windworn Acacia Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"wind_acacia\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.wind_acacia",
+                  "fallback": "Windworn Acacia Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"wooded_mesa\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.wooded_mesa",
+                  "fallback": "Wooded Mesa Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"wooded_mesa\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.wooded_mesa",
+                  "fallback": "Wooded Mesa Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"hoodoo\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.hoodoo",
+                  "fallback": "Painted Spire Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"hoodoo\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.hoodoo",
+                  "fallback": "Painted Spire Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"river\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.river",
+                  "fallback": "Riverstone Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"river\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.river",
+                  "fallback": "Riverstone Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"frozen_river\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.frozen_river",
+                  "fallback": "Frozen Ford Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"frozen_river\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.frozen_river",
+                  "fallback": "Frozen Ford Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"rocky_shore\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.rocky_shore",
+                  "fallback": "Breakwater Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"rocky_shore\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.rocky_shore",
+                  "fallback": "Breakwater Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"snowy_shore\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.snowy_shore",
+                  "fallback": "Snowdrift Shore Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"snowy_shore\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.snowy_shore",
+                  "fallback": "Snowdrift Shore Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"ice_spire\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.ice_spire",
+                  "fallback": "Ice Spire Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"ice_spire\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.ice_spire",
+                  "fallback": "Ice Spire Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"snowline\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.snowline",
+                  "fallback": "Snowline Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"snowline\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.snowline",
+                  "fallback": "Snowline Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"jagged\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.jagged",
+                  "fallback": "Jagged Summit Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"jagged\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.jagged",
+                  "fallback": "Jagged Summit Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"glacier\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.glacier",
+                  "fallback": "Glacier Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"glacier\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.glacier",
+                  "fallback": "Glacier Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"windswept\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.windswept",
+                  "fallback": "Windward Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"windswept\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.windswept",
+                  "fallback": "Windward Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{farstep:1b,variant:\"gravelwind\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.gravelwind",
+                  "fallback": "Gravel Crest Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:custom_data": "{yg_waystone:1b,variant:\"gravelwind\"}"
+                }
+              },
+              "on_pass": {
+                "type": "minecraft:set_name",
+                "name": {
+                  "translate": "farstep.item.gravelwind",
+                  "fallback": "Gravel Crest Waystone",
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/lectern"
+}

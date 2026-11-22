@@ -1,0 +1,31 @@
+{
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:stone",
+    "minecraft:tuff",
+    "minecraft:calcite",
+    "minecraft:gravel",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:coarse_dirt",
+    "minecraft:podzol",
+    "minecraft:mycelium",
+    "minecraft:snow_block",
+    "minecraft:terracotta",
+    "minecraft:moss_block",
+    "minecraft:pale_moss_block",
+    "minecraft:mud",
+    "minecraft:clay",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice",
+    "minecraft:ice",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:rooted_dirt",
+    {
+      "id": "#minecraft:terracotta",
+      "required": false
+    }
+  ]
+}

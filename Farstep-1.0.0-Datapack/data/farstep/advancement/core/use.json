@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "action": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:interaction",
+            "nbt": "{Tags:[\"farstep.touch\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "farstep:core/use"
+  }
+}

@@ -1,0 +1,1 @@
+dialog show @s {"type":"minecraft:notice","title":{"translate":"farstep.rename_prompt","fallback":"Waystone name"},"pause":false,"body":{"type":"minecraft:plain_message","contents":{"translate":"farstep.origin","fallback":"Move back to your departure stone."}},"action":{"label":{"translate":"farstep.close","fallback":"Close"}}}

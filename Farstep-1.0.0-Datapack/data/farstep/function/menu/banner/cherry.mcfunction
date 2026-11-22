@@ -1,0 +1,1 @@
+data modify storage farstep:network menu.body append value {"type":"minecraft:plain_message","width":286,"contents":{"text":"","font":"farstep:panels","color":"white","extra":[{"text":"\n \n \n \n \n ","font":"minecraft:default"}]}}

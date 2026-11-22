@@ -1,0 +1,3 @@
+scoreboard objectives add farstep_keys trigger
+data modify storage farstep:network rename.keys set value [" ","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","à","â","ä","ç","é","è","ê","ë","î","ï","ô","ö","ù","û","ü","ÿ","œ","æ","À","Â","Ä","Ç","É","È","Ê","Ë","Î","Ï","Ô","Ö","Ù","Û","Ü","Ÿ","Œ","Æ","0","1","2","3","4","5","6","7","8","9","'","-","_",".",",","!","?",":","+","&","(",")","/"]
+data modify storage farstep:network rename.drafts set value []

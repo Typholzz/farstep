@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "used": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": [
+            "minecraft:daylight_detector",
+            "minecraft:lectern"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "farstep:open"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "farstep",
+  "pattern": [
+    " A ",
+    "PLP",
+    " B "
+  ],
+  "key": {
+    "A": "minecraft:lily_pad",
+    "P": "minecraft:ender_pearl",
+    "L": "minecraft:lodestone",
+    "B": "minecraft:mud_bricks"
+  },
+  "result": {
+    "id": "minecraft:daylight_detector",
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "farstep.item.swamp",
+        "fallback": "Marsh Lantern Waystone",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:custom_data": "{farstep:1b,variant:\"swamp\"}"
+    }
+  }
+}

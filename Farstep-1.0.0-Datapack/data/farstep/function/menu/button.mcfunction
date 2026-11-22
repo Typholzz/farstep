@@ -1,0 +1,1 @@
+$data modify storage farstep:network menu.actions append value {label:$(label),width:140,tooltip:{text:"X $(x)  /  Y $(y)  /  Z $(z)",color:"gray"},action:{type:"minecraft:run_command",command:"/trigger farstep set $(id)"}}

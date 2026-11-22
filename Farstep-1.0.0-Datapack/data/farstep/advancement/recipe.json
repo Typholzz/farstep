@@ -1,0 +1,66 @@
+{
+  "criteria": {
+    "found": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lodestone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "farstep:waystone",
+      "farstep:waystone_moss",
+      "farstep:waystone_dune",
+      "farstep:waystone_ember",
+      "farstep:waystone_frost",
+      "farstep:waystone_prismarine",
+      "farstep:waystone_quartz",
+      "farstep:waystone_basalt",
+      "farstep:waystone_end",
+      "farstep:waystone_tuff",
+      "farstep:waystone_obsidian",
+      "farstep:waystone_terracotta",
+      "farstep:waystone_sunflower",
+      "farstep:waystone_meadow",
+      "farstep:waystone_birch",
+      "farstep:waystone_old_birch",
+      "farstep:waystone_dark_oak",
+      "farstep:waystone_poplar",
+      "farstep:waystone_blossom",
+      "farstep:waystone_windwood",
+      "farstep:waystone_pale_oak",
+      "farstep:waystone_cherry",
+      "farstep:waystone_spruce",
+      "farstep:waystone_ancient_pine",
+      "farstep:waystone_giant_spruce",
+      "farstep:waystone_snow_spruce",
+      "farstep:waystone_grove",
+      "farstep:waystone_jungle",
+      "farstep:waystone_jungle_fringe",
+      "farstep:waystone_bamboo",
+      "farstep:waystone_swamp",
+      "farstep:waystone_mangrove",
+      "farstep:waystone_mycelium",
+      "farstep:waystone_acacia",
+      "farstep:waystone_savanna_plateau",
+      "farstep:waystone_wind_acacia",
+      "farstep:waystone_wooded_mesa",
+      "farstep:waystone_hoodoo",
+      "farstep:waystone_river",
+      "farstep:waystone_frozen_river",
+      "farstep:waystone_rocky_shore",
+      "farstep:waystone_snowy_shore",
+      "farstep:waystone_ice_spire",
+      "farstep:waystone_snowline",
+      "farstep:waystone_jagged",
+      "farstep:waystone_glacier",
+      "farstep:waystone_windswept",
+      "farstep:waystone_gravelwind"
+    ]
+  }
+}

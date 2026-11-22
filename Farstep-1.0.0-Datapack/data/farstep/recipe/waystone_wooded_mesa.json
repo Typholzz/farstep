@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "farstep",
+  "pattern": [
+    " A ",
+    "PLP",
+    " B "
+  ],
+  "key": {
+    "A": "minecraft:oak_sapling",
+    "P": "minecraft:ender_pearl",
+    "L": "minecraft:lodestone",
+    "B": "minecraft:orange_terracotta"
+  },
+  "result": {
+    "id": "minecraft:daylight_detector",
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "farstep.item.wooded_mesa",
+        "fallback": "Wooded Mesa Waystone",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:custom_data": "{farstep:1b,variant:\"wooded_mesa\"}"
+    }
+  }
+}

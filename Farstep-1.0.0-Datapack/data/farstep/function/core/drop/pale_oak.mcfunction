@@ -1,0 +1,1 @@
+execute store success score #dropped farstep_tmp run summon minecraft:item ~ ~0.7 ~ {Item:{"id":"minecraft:daylight_detector","count":1,"components":{"minecraft:custom_name":{"translate":"farstep.item.pale_oak","fallback":"Pale Oak Waystone","color":"aqua","italic":false},"minecraft:custom_data":"{farstep:1b,variant:\"pale_oak\"}"}},PickupDelay:0s}

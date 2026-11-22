@@ -1,0 +1,1 @@
+summon minecraft:item_display ~ ~ ~ {Tags:["farstep.skin","farstep.v3"],width:1.3f,height:2.1f,view_range:0.8f,item:{"id":"minecraft:daylight_detector","count":1,"components":{"minecraft:custom_name":{"translate":"farstep.item.grove","fallback":"Snowy Grove Waystone","color":"aqua","italic":false},"minecraft:custom_data":"{farstep:1b,variant:\"grove\"}"}}}

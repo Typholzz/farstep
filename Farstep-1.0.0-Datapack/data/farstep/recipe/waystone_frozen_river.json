@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "farstep",
+  "pattern": [
+    " A ",
+    "PLP",
+    " B "
+  ],
+  "key": {
+    "A": "minecraft:clay_ball",
+    "P": "minecraft:ender_pearl",
+    "L": "minecraft:lodestone",
+    "B": "minecraft:ice"
+  },
+  "result": {
+    "id": "minecraft:daylight_detector",
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "farstep.item.frozen_river",
+        "fallback": "Frozen Ford Waystone",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:custom_data": "{farstep:1b,variant:\"frozen_river\"}"
+    }
+  }
+}

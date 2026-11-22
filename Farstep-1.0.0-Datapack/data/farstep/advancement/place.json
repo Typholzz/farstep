@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": [
+                "minecraft:daylight_detector",
+                "minecraft:lectern"
+              ]
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:daylight_detector",
+                      "minecraft:lectern"
+                    ],
+                    "predicates": {
+                      "minecraft:custom_data": "{farstep:1b}"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:daylight_detector",
+                      "minecraft:lectern"
+                    ],
+                    "predicates": {
+                      "minecraft:custom_data": "{yg_waystone:1b}"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "farstep:place"
+  }
+}

@@ -1,0 +1,1 @@
+execute store success score #dropped farstep_tmp run summon minecraft:item ~ ~0.7 ~ {Item:{"id":"minecraft:daylight_detector","count":1,"components":{"minecraft:custom_name":{"translate":"farstep.item.ember","fallback":"Ember Waystone","color":"aqua","italic":false},"minecraft:custom_data":"{farstep:1b,variant:\"ember\"}"}},PickupDelay:0s}
